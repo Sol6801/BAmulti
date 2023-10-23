@@ -4,20 +4,32 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="styles.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"/>
+        <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <title>Panaderia</title>
     </head>
 <body>
         <header>
+            <!--Bootstrap-->
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#producto">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#footer">Contacto</a>
+                </li>
+              </ul>
+              <!--Antiguo navBar
                 <nav>
                     <ul>
                         <li><a href="#">Inicio</a></li>
                         <li><a href="#producto">Productos</a></li>
                         <li><a href="#footer">Contacto</a></li>
                     </ul>
-                </nav>
-                <div class="bars-container">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
+                </nav>-->
         </header>
         <main>
         <div id="banner">
@@ -34,7 +46,7 @@
             <span>
                 
                 <h1> Nosotros...</h1>
-
+        <!--Centrar la pagina en "Productos"-->
         <a name="producto"></a>
                 <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
@@ -45,21 +57,21 @@
         <div id="productos">
             <div class="prod">
                 <h1> Nuestros Productos </h1>
-                <ul>
-            <li>Panificados</li>
-            <li>Medialunas</li>
-            <li>Tortas</li>
-            <li>Rolls de Canela</li>
-            <li>Bizcochos</li>
-            <li>Sandwiches</li>
-            <li>PrePizzas</li>
-            <li>Galletas</li>
-            <li>Chipá</li>
-            <li>Grisines</li>
-            <li>Y aún más...</ul> 
+                <ul class="list-group list-group-flush">
+            <li class="list-group-item">Panificados</li>
+            <li class="list-group-item">Medialunas</li>
+            <li class="list-group-item">Tortas</li>
+            <li class="list-group-item">Rolls de Canela</li>
+            <li class="list-group-item">Bizcochos</li>
+            <li class="list-group-item">Sandwiches</li>
+            <li class="list-group-item">PrePizzas</li>
+            <li class="list-group-item">Galletas</li>
+            <li class="list-group-item">Chipá</li>
+            <li class="list-group-item">Grisines</li>
+            <li class="list-group-item">Y aún más...</ul> 
               <br/>
               
-            </div>          
+            </div> 
             <div class="galeria">
                 <div class="item caja1"></div>
                 <div class="item caja2"></div>
@@ -70,6 +82,9 @@
             </div>
         </div>
     </main>
+    
+        <!--Redirigir la pagina en "contacto"-->
+    <a name="footer"></a>
     <footer class="pie">
         <p>
             ¿Tenés alguna consulta? Contactate con nosotros por los medios que te dejamos a continuación y te informaremos sobre todo aquello que necesites. <br/>
@@ -78,12 +93,12 @@
                             Sabados: de 8 a 13Hs. 
                             <br/>
                             <ul>
-        <li>Direccion: Calle Falsa 123
-        Teléfono: 123456789</li><br/>
+        <li>Direccion: Calle Falsa 123</li><br/>
         <li>Teléfono: 123456789</li><br/>
         <li><em>panaderia@hotmail.com</em></li>
         <br/>
         </p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
