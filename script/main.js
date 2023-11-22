@@ -2,6 +2,7 @@ const {log}= console;
 const nav = document.getElementById("nav");
 const btnBars = document.getElementById("fa-bars");
 
+//barra de navegacion fa-bars
 function depliegueNav(){
     nav.classList.toggle("nav-visible");
 };
@@ -12,6 +13,7 @@ function cerrarNav (e){
     };
 };
 
+//scroll a la parte superior de la pagina
 const scrollButton = document.getElementById("scrollButton");
 scrollButton.addEventListener("click", () => {
 window.scrollTo({
@@ -28,6 +30,9 @@ function iniciar (){
 
 iniciar();
 
+//validez del formulario
+
 document.querySelector('.form').addEventListener('submit',e => {
     e.preventDefault()
   });
+

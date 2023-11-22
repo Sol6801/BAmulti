@@ -372,68 +372,14 @@ textarea{
       padding: 2rem;
       justify-self: flex-start;
     }
-    .inicio{
-      display:flex;
-      flex-direction: row;
-      align-items: center;
-    }
-    .inicio-info{
-      text-align: left;
-    }
-    .inicio-imagen-container{
-      order:2;
-    }
-    .inicio-container{
-      order:1;
-    }
-    .crear-formulario-contenedor {
-      border-radius: 0px;
-      text-align: left;
-      font-size: 1.1rem;
-    }
-    .img-card-recomendaciones{
-      width: 130px;
-  }
-
-  .container{
-    display: flex;
-    justify-content: space-between;
-}
-
-.inicio-info{
-    width: 60%;
-    padding: 0;
-}
-
-.img-inicio-container{
-    width: 40%;
-}
-
-.inicio{
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 15%;
-}
-    }
-    .card-resultado img{
-      width:50%;
-    }
-    .contenido-card h3, .contenido-card p, .contenido-card h4, .contenido-card h5, .contenedor-card h6{
-      margin-top:0rem;
-      margin-bottom: 0rem;
-    }
-    .crear-formulario-contenedor{
-      margin-bottom: 0;
-    }
-
-    .pedidos{
-      background-color: var(--bgc-beige);
-      padding: 4rem 0;
+    
   }
   
+  .caja{
+    background-color: var(--bgc-beige);
+    padding: 4rem 0;
+}
+ 
   .card-pan{
       display: flex;
       flex-direction: column;
@@ -483,7 +429,7 @@ textarea{
   }
   
   .img-card-recomendaciones{
-      width: 180px;
+      width: 100%;
   }
   
   
