@@ -36,3 +36,26 @@ document.querySelector('.form').addEventListener('submit',e => {
     e.preventDefault()
   });
 
+function mostrarImagen(src) {
+    // Obtenemos el elemento de la imagen completa
+    var imagenCompleta = document.getElementById("imagenCompleta");
+    let cerrar = document.getElementById("cerrar");
+
+    // Configuramos la fuente de la imagen completa con la miniatura clicada
+    imagenCompleta.src = src;
+
+    // Mostramos la imagen completa
+    imagenCompleta.style.display = "block";
+    cerrar.style.display = "flex";
+
+}
+
+// Función para cerrar la imagen completa
+function cerrarImagen() {
+    // Ocultamos la imagen completa
+    var imagenCompleta = document.getElementById("imagenCompleta");
+    imagenCompleta.style.display = "none";
+    cerrar.style.display ="none";
+}
+
+

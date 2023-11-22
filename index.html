@@ -71,13 +71,19 @@
               </div>
             </section> 
             <section class="galeria">
-                <div class="item caja1"></div>
-                <div class="item caja2"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
+                <div class="item caja1" onclick="mostrarImagen('./imagenes/1.jpg')"></div>
+                <div class="item caja2" onclick="mostrarImagen('./imagenes/2.jpg')"></div>
+                <div class="item" onclick="mostrarImagen('./imagenes/7.jpg')"></div>
+                <div class="item" onclick="mostrarImagen('./imagenes/4.jpg')"></div>
+                <div class="item" onclick="mostrarImagen('./imagenes/5.jpg')"></div>
+                <div class="item" onclick="mostrarImagen('./imagenes/6.jpg')"></div>
             </section>
+            <div>
+                <span class="cerrar" id="cerrar" onclick="cerrarImagen()"> &times;</span>
+            <img src="" alt="Imagen Completa" id="imagenCompleta" class="imagen-completa">
+            </div>
+
+
             <section class="contacto">
                 <form action="" method="">
                     <h2>¿Querés comunicarte con nosotros?</h2>
